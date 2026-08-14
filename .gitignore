@@ -1,0 +1,17 @@
+# Data (see docs/01_data_sources.md)
+data/
+
+# Generated results, figures and models. This repo reproduces them from source
+# (run_all.py writes them under artifacts/), so they are not tracked.
+artifacts/
+
+# Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cache/
+catboost_info/
+
+# Environment and OS
+.venv/
+.DS_Store
