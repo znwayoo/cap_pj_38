@@ -1,8 +1,8 @@
 # Project 38: Irish residential flood hazard and depth-damage modelling
 
-This repository reproduces the Project 38 experiment from source. It composes open Irish flood-hazard and building-stock data into dwelling-type-resolved flood hazard and depth-damage curves with banded uncertainty, applies them to a Dublin worked example, and regenerates the report's Chapter 4 figures. Running the pipeline produces every result table and figure; nothing is shipped pre-computed.
+Project 38 builds dwelling-type-resolved flood hazard and depth-damage curves for Irish residential buildings, with banded uncertainty, and applies them to a Dublin worked example. This repository holds the full modelling pipeline: it composes open Irish flood-hazard and building-stock data into those curves and generates every result table and figure in the report's Chapter 4 directly from the source data.
 
-The interactive report app is maintained separately in the experiment repository and is not part of this repo.
+The interactive report app can be found here : https://capstone38.streamlit.app/
 
 ## What is here
 
